@@ -1,7 +1,7 @@
 // target current day, disable future days and days without dates
 
 var d = new Date();
-var todaysDate = d.getDate()+17;
+var todaysDate = d.getDate()+18;
 var target = $('#calendar .week .day .date');
 
 target.each(function(){
